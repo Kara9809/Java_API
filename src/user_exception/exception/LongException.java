@@ -1,4 +1,4 @@
-package user_exception.exceptions;
+package user_exception.exception;
 
 public class LongException extends Exception{
     public LongException() {

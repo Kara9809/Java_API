@@ -1,8 +1,9 @@
-package user_exception.exceptions;
+package user_exception.exception;
 
 public class PasswordMismatchException extends Exception{
     public PasswordMismatchException() {
-        super("Passwords are not the same...");
+        super("It's not the same passwords...");
+
     }
 
     public PasswordMismatchException(String message) {
